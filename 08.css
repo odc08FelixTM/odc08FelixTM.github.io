@@ -1,4 +1,7 @@
-/* 08 (: */
+/* 08 - (: */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
 body{ 
   display: flex;
   width: 100vw;
@@ -8,9 +11,9 @@ body{
   margin: 0;
   background: #131313;
   color: #fff;
-  font-size: 96px;
-  font-family: 'Fira Mono', monospace;
-  letter-spacing: -7px;
+  font-size: 100.08px;
+  font-family: 'Kanit', sans-serif;  
+  letter-spacing: 0.8px;
 }
 
 div{
@@ -55,7 +58,7 @@ div:before{
 }
 
 div:after{
-  animation: glitchBotom 1.5s linear infinite;
+  animation: glitchBotom 1.8s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
