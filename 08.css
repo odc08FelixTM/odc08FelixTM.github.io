@@ -14,7 +14,7 @@ body{
 }
 
 div{
-  animation: glitch 5s linear infinite;
+  animation: glitch 3s linear infinite;
 }
 
 @keyframes glitch{
@@ -37,7 +37,7 @@ div:after{
 }
 
 div:before{
-  animation: glitchTop 5s linear infinite;
+  animation: glitchTop 2s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
 }
@@ -55,7 +55,7 @@ div:before{
 }
 
 div:after{
-  animation: glitchBotom 5.5s linear infinite;
+  animation: glitchBotom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
